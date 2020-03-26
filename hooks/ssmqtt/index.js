@@ -44,7 +44,7 @@ module.exports = strapi => { return {
 				 clean : true,
 				 keepalive : 60 }
 
-		if (process.env.MSSC_LOGIN === 'true' || process.env.MSSC_LOGIN === '1') {
+		if (login =  true || login = 1) {
 			//login mode
 			strapi.log.info(`SSMQTT Login Mode: ${username}`)
 			conn_opt['username'] = username
