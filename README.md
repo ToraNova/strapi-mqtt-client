@@ -2,7 +2,7 @@
 This is a hook template to implement a server side MQTT client on strapi. You can use it to accept MQTT messages and do processing on models.
 
 ## How to use ?
-Place the hooks directory under your strapi project folder (i.e., `./hooks/`), then edit the `./config/hook.json` and add in the following lines:
+First, install the `mqtt` (package) [https://www.npmjs.com/package/mqtt] using `npm`. Place the hooks directory under your strapi project folder (i.e., `./hooks/`), then edit the `./config/hook.json` and add in the following lines:
 
 File `./config/hook.json`
 ```
